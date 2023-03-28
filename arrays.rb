@@ -3,15 +3,15 @@ random_numbers = [12, 21, 19, 8000, 4672]
 bank_balances = [1700.91, 7477.80, 726.01, 70009.71, 590.21]
 true_or_false = [false, false, true, true, false]
 
-Puts "Using .pop will remove the last element of this array."
+puts "Using .pop will remove the last element of this array."
 puts favorite_bands.pop
 puts favorite_bands
 
-Puts "Using .push will push the given element to the end of the array"
+puts "Using .push will push the given element to the end of the array"
 puts random_numbers.push [21]
 puts random_numbers
 
-Puts "Using .shift will remove an element in an array from first to last"
+puts "Using .shift will remove an element in an array from first to last"
 puts bank_balances.shift
 puts bank_balances
 
