@@ -4,15 +4,30 @@ bank_balances = [1700.91, 7477.80, 726.01, 70009.71, 590.21]
 true_or_false = [false, false, true, true, false]
 
 #Using .pop will remove the last element of this array.
-favorite_bands.pop
+puts favorite_bands.pop
+puts favorite_bands
 
 #Using .push will push the given element to the end of the array
-random_numbers.push [21]
+puts random_numbers.push [21]
+puts random_numbers
 
 #Using .shift will remove an element in an array from first to last
-bank_balances.shift
+puts bank_balances.shift
+puts bank_balances
 
 #Using .unshift is used to fill an array with elements
 # that will begin at the front of the array
-true_or_false.unshift[true]
+puts true_or_false.unshift[true]
+puts true_or_false
 
+# Index Positions
+# Arrays begin with the number 0.
+# For example, if I call 0 of my favorite bands, it will call
+# the first listed element in that array.
+
+puts favorite_bands[0]
+
+# If I wanted to call my element of Mat Kearney, I would call
+# number 3 even though it is technically the fourth listed band
+
+puts favorite_bands[3]
