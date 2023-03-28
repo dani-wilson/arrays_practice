@@ -47,3 +47,13 @@ puts "If I wanted to call my element of Mat Kearney, I would call
 number 3 even though it is technically the fourth listed band"
 
 puts favorite_bands[3]
+
+puts "The .delete method is useful in general"
+puts "array.delete will remove a specified element from an array permanently"
+puts "for example, I'll delete the bank balance of 726.01"
+puts "before deletion"
+puts bank_balances
+puts "after deletion"
+bank_balances.delete(726.01)
+puts bank_balances
+
