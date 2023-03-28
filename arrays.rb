@@ -20,12 +20,20 @@ puts "This is my random numbers list after using the .push command for the numbe
 puts random_numbers
 
 puts "Using .shift will remove an element in an array from first to last"
+puts "This is my bank balances list before using the .shift command"
+puts bank_balances
+puts "Now I'll use the .shift command"
 puts bank_balances.shift
+puts "This is my bank balances list after using the .shift command"
 puts bank_balances
 
 puts "Using .unshift is used to fill an array with elements"
-# that will begin at the front of the array
+puts "that will begin at the front of the array"
+puts "This is my boolean list before using .unshift"
+puts true_or_false
+puts "now I'll use .unshift [true]"
 puts true_or_false.unshift [true]
+puts "This is what my boolean list looks like after using .unshift [true]"
 puts true_or_false
 
 puts "Index Positions
