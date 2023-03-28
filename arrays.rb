@@ -4,7 +4,11 @@ bank_balances = [1700.91, 7477.80, 726.01, 70009.71, 590.21]
 true_or_false = [false, false, true, true, false]
 
 puts "Using .pop will remove the last element of this array."
+puts "This is the list of bands before using .pop"
+puts favorite_bands
+puts "Now I'll use the .pop command"
 puts favorite_bands.pop
+puts "This is the list after using the .pop command"
 puts favorite_bands
 
 puts "Using .push will push the given element to the end of the array"
