@@ -17,7 +17,7 @@ puts bank_balances
 
 puts "Using .unshift is used to fill an array with elements"
 # that will begin at the front of the array
-puts true_or_false.unshift[true]
+puts true_or_false.unshift [true]
 puts true_or_false
 
 puts "Index Positions
