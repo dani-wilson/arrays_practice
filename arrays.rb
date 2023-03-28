@@ -12,7 +12,11 @@ puts "This is the list after using the .pop command"
 puts favorite_bands
 
 puts "Using .push will push the given element to the end of the array"
+puts "This is my random numbers list before using .push [21]"
+puts random_numbers
+puts "Now I'll use the .push [21] command"
 puts random_numbers.push [21]
+puts "This is my random numbers list after using the .push command for the number 21"
 puts random_numbers
 
 puts "Using .shift will remove an element in an array from first to last"
